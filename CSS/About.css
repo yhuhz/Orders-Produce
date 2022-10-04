@@ -1,0 +1,98 @@
+/*FOR ABOUT*/
+
+.About {
+    position: relative;
+    height: 96vh;
+    overflow: hidden;
+    background-color: #8ab6d6;
+    font-family: 'Cairo', sans-serif;
+    color: blanchedalmond;
+}
+
+.AboutIntro {
+    position: relative;
+    top: 0;
+    padding: 0.01vh;
+    height: auto;
+    background-color: #0061a8;
+}
+
+.AboutIntro h1, .AboutIntro p{
+    text-align: center;
+    font-size: 2vh;
+    color: #fed049;
+}
+
+.AboutIntro h1 {
+    font-size: 6vh;
+}
+
+#myCarousel {
+    top: 1%;
+    width: 50vw;
+    height: 60vh;
+    left: 25%;
+    border: 2px solid blanchedalmond;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-indicators {
+    z-index: 1;
+}
+
+.carousel-inner{
+    width: 50vw;
+    height: 60vh;
+}
+
+.carousel-indicators {
+    bottom: -1vh;
+}
+
+.carousel-inner img {
+    width: 50vw;
+    height: auto;
+    position: relative;
+}
+
+.slide {
+    transition: 3s;
+}
+
+.carousel-caption {
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    background-color: rgba(24, 23, 23, 0.63);
+    color: blanchedalmond;
+    width: 100%;
+    height: 15%;
+    bottom: 12%;
+    left: 0;
+    margin-top: 0;
+}
+
+.carousel-caption h3 {
+    margin-top: -1%;
+    margin-bottom: 0;
+    font-size: 4vh;
+}
+
+.AboutText {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-left: 24.5vw;
+    padding-right: 24.5vw;
+    position: relative;
+    color: #fed049;
+    background-color: rgba(36, 34, 34, 0.562);
+}
+
+.AboutText h3 {
+    font-size: 4vh;
+}
+
+.AboutText p {
+    font-size: 2vh;
+}

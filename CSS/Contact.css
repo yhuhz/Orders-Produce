@@ -1,0 +1,385 @@
+/*FOR CONTACT*/
+
+.Contact {
+    position: relative;
+    height: 95.5vh;
+    overflow: hidden;
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    background-color: rgb(119, 205, 245);
+}
+
+#ContactPlaceholder {
+    position: absolute;
+    top: -5vh;
+}
+
+
+
+.BoxOne {
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 25vw;
+    height: auto;
+    top: 10%;
+    right: 5%;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+    overflow: hidden;
+}
+
+.container {
+    color: #333;
+    width: 100%;
+    height: 100%;
+    font-size: 2vh;
+    display: block;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+
+.container input {
+    border-radius: 4px;
+    height: 4vh;
+}
+
+.Contactform-header {
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    margin: 0;
+    overflow: hidden;
+    color: rgb(250, 246, 240);
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 4vh;
+}
+
+form {
+    margin: auto;
+
+}
+
+.container label {
+    margin: 0;
+    padding-left: 5px;
+    color: #333;
+}
+
+.FirstName {
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-bottom: 1vh;
+}
+
+.FirstName input {
+    width: 95%;
+}
+
+.LastName {
+    position: relative;
+    float: right;
+    right: 0;
+    width: 50%;
+    margin-bottom: 1vh;
+}
+
+.LastName input {
+    width: 100%;
+}
+
+.Email {
+    margin-bottom: 1vh;
+}
+
+.Email input {
+    width: 100%;
+}
+
+.Message {
+    margin-top: 1vh;
+}
+
+#message {
+    resize: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+
+.NumPrefix {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.number-prefix {
+    position: relative;
+    border-radius: 4px 0px 0px 4px;
+    border-left: 0;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 10%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+    height: auto;
+}
+
+#number {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    display: table-cell;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    margin: 0;
+    border-radius: 0px 4px 4px 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    padding: 0;
+    margin-top: 1.5vh;
+    width: 49%;
+    font-size: 2vh;
+}
+
+#resetBtn {
+    float: right;
+}
+
+#resetBtn, #submitBtn {
+    font-size: 2vh;
+}
+
+.BoxTwo {
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 25vw;
+    height: 20vh;
+    top: 72%;
+    right: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.BoxTwo h3 {
+    margin-top: 0;
+    margin-bottom: 1vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2vh;
+    background-color: rgb(255, 171, 102);
+    font-size: 4vh;
+}
+
+.SocMed {
+    padding-left: 1.6vw;
+    padding-top: 2vh;
+}
+
+.fa {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-size: 3.5vh;
+    width: 4vw;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1vw;
+    border-radius: 4px;
+    display: inline-block;
+    height: auto;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+      background: rgb(211, 74, 74);
+      color: white;
+  }
+
+  .fa-instagram {
+      background: crimson;
+      color: white;
+  }
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 5vh;
+    width: 65%;
+    height: 100%;
+    object-fit: fill;
+    filter: blur(4px);
+    transform: scale(1.1);
+}
+
+.ColorFilter {
+    background: #3b58984b;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.filter-color {
+    background: #3b58984b;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.BottomBar {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background: rgb(32, 31, 31);
+    margin-top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.BBarT {
+    float: right;
+    padding-top: 15px;
+    padding-right: 50px;
+    font-size: 3vh;
+    color: blanchedalmond;
+}
+
+.Owner, .Company {
+    display: block;
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    top: 57%;
+    left: 5%;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Owner h3, .Company h3 {
+    position: relative;
+    text-align: center;
+    font-size: 4vh;
+    background-color: rgb(255, 171, 102);
+    margin-top: 0;
+    padding: 1vh;
+    color: rgb(255, 255, 255);
+}
+
+.Owner-pic-name, .company-pic-name {
+    word-wrap: break-word;
+    width: 15vw;
+}
+
+.Owner img, .Company img {
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    left: 5%;
+}
+
+.Owner h4, .Company h4 {
+    position: relative;
+    font-size: 3vh;
+    left: 40%;
+    display: inline-block;
+    
+}
+
+.contactinfo-owner, .contactinfo-company {
+    padding-left: 1vw;
+    padding-top: 3vh;
+    font-size: 1vw;
+    display: inline-block;
+}
+
+.contactinfo-owner {
+    padding-top: 1vh;
+}
+
+.contactinfo-owner i, .contactinfo-company i {
+    font-size: 1.2vw;
+    margin-right: 0.5vw;
+}
+
+.socmed-owner, .socmed-company {
+    position: relative;
+    margin-top: 0.5vh;
+    left: 50%;
+    margin-bottom: 2vh;
+}
+
+.socmed-owner i, .socmed-company i {
+    font-size: 3vh;
+    color: rgb(158, 104, 60);
+    
+}
+
+.socmed-company i {
+    color: cadetblue;
+}
+
+.Company {
+    top: 10%;
+    left: 5%;
+}
+
+.contactinfo-company {
+    margin-top: 1.5vh;
+}
+
+.socmed-company {
+    left: 30%;
+}
+
+.Company h3 {
+    background-color: cadetblue;
+    color: cornsilk;
+}

@@ -1,0 +1,308 @@
+/*FOR Products*/
+
+.Product {
+    position: relative;
+    height: 96vh;
+    background-color: #3da5d9;
+    font-family: 'Cairo', sans-serif;
+    color: blanchedalmond;
+    overflow: hidden;
+}
+
+.ProductIntro {
+  position: relative;
+    background-color: #73BFB8;
+    top: -2vh;
+    margin-bottom: 0;
+    padding-top: 1vh;
+}
+
+.ProductIntro h1, .ProductIntro p{
+    text-align: center;
+    font-size: 2vh;
+}
+
+
+#ProductPlaceholder {
+  position: relative;
+  background-color: #8ab6d6;
+  top: -4vh;
+}
+
+.ProductIntro p {
+  margin-bottom: 0;
+}
+
+.ProductIntro h1 {
+    font-size: 6vh;
+}
+
+/* Style the tab */
+.tab {
+    color: #2364aa;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: blanchedalmond;
+    margin-top: 0;
+    position: relative;
+    top: -2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+.tab button {
+    width: 6vw;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    left: 33%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-size: 2vh;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #d2e69c;
+  }
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: #EAD637;
+  }
+  
+  /* Style the tab content */
+.tabcontent {
+    background-color: #3da5d9;
+    text-align: center;
+    width: 100%;
+    height: 75%;
+    border-top: none;
+    overflow: hidden;
+    position: absolute;
+
+  }
+
+#Homebtn, #Homebtn i {
+    color: blanchedalmond;
+    font-size: 4vh ;
+    position: fixed;
+    left: 2vh;
+    top: 93vh;
+    z-index: 1;
+}
+
+.tabcontent h3 {
+  position: relative;
+  font-size: 5vh;
+  padding-bottom: 1vh;
+  top: -2vh;
+}
+
+/*Vestments*/
+.Vpar_Left{
+  overflow: hidden;
+  font-size: 3.2vh;
+  text-align: justify;
+  left: 5vw;
+  width: 40vw;
+  height: 55vh;
+  position: absolute;
+}
+
+.Vpar_Right {
+  overflow: hidden;
+  font-size: 3.2vh;
+  text-align: justify;
+  right: 5vw;
+  width: 25vw;
+  height: 55vh;
+  position: absolute;
+}
+
+.VestmentsGallery {
+  left: 45vw;
+  width: 40vw;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1vw;
+  top: -2vh;
+}
+
+.Vtile, .Ltile {
+  filter: grayscale(50%);
+  margin-bottom: 2vh;
+  margin-left: 1.5vw;
+  border: 2px solid #313435;
+  border-radius: 20px;
+  width: 15vw;
+  height: 28vh;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.Vtile img, .Ltile img {
+  transition: 0.5s;
+  width: 15vw;
+  height: 26vh;
+}
+
+.Vtile figcaption, .Ltile figcaption, .Htile figcaption, .Dtile figcaption {
+  background-color: #d2e69c;
+  color: #4b778d;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 1vw;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.Vtile:hover, .Ltile:hover, .Btile:hover, .Htile:hover, .Dtile:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+/*Liturgy*/
+.LiturgyGallery {
+  left: 42vw;
+  width: 55vw;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-top: 1vw;
+  top: -2vh;
+}
+
+.Lpar_Left{
+  overflow: hidden;
+  font-size: 3.2vh;
+  text-align: justify;
+  left: 5vw;
+  width: 37vw;
+  height: 55vh;
+  position: absolute;
+}
+
+/*Books*/
+.BooksGallery {
+  left: 15vw;
+  width: 70vw;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  top: -2vh;
+}
+
+.Btile {
+  filter: grayscale(50%);
+  margin-left: 1vw;
+  margin-top: 1.5vh;
+  border: 2px solid #313435;
+  border-radius: 20px;
+  width: 10vw;
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.Btile img {
+  transition: 0.5s;
+  width: 10vw;
+  height: 23vh;
+}
+
+.Btile figcaption {
+  background-color: #d2e69c;
+  color: #4b778d;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 0.9vw;
+  bottom: 0;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.Bpar {
+  position: relative;
+  text-align: center;
+  font-size: 2vh;
+  width: 80%;
+  left: 10vw;
+  top: -2vh;
+}
+
+/*Habits*/
+.HabitsGallery, .DevotionsGallery {
+  left: 15vw;
+  width: 70vw;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  top: -2vh;
+}
+
+.Htile {
+  filter: grayscale(50%);
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  border: 2px solid #313435;
+  border-radius: 20px;
+  width: 12vw;
+  height: 43vh;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.Htile img {
+  transition: 0.5s;
+  width: 12vw;
+  height: 100%;
+}
+
+.Hpar, .Dpar {
+  font-size: 2.5vh;
+  width: 100%;
+  padding-left: 17vw;
+  padding-right: 17vw;
+  position: relative;
+  text-align: center;
+  top: -2vh;
+}
+
+/*Devotions*/
+.Dtile {
+  filter: grayscale(50%);
+  margin-bottom: 1vh;
+  margin-left: 2vw;
+  margin-top: 1.5vh;
+  border: 2px solid #313435;
+  border-radius: 20px;
+  width: 10vw;
+  height: 23vh;
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.Dtile img {
+  transition: 0.5s;
+  width: 10vw;
+  height: 21vh;
+}
+

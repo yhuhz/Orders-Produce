@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eaeaea;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: inherit; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.Home {
+    top: 5vh;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    margin-left: 0%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+.top-bar {
+    width: 100%;
+    height: 5.5vh;
+    position: fixed;
+    background-color: blanchedalmond;
+    z-index: 3;
+}
+
+.menu {
+    position: relative;
+    background-color: blanchedalmond;
+    width: 10%;
+    height: 100%;
+    left: 97%;
+    display: inline;
+}
+
+#menuIcon{
+    padding-left: 5px;
+    font-size: 4vh;
+    cursor: pointer;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vh;
+    margin-right: 5vw;
+    border-radius: 10px;
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: #2364aa;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+.menu:hover .dropdown-content {
+    float: right;
+    display: block;
+    right: 0;
+    margin-right: 10%;
+    margin-top: -10%;
+    overflow: hidden;
+    
+}
+
+.left-menu {
+    float: left;
+    left: 1%;
+    display: block;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 3%;
+    height: 100%;
+    left: 1%;
+    top: 0;
+}
+
+.logo-name {
+    position: absolute;
+    margin-left: 5%;
+    font-size: 4vh;
+    vertical-align: middle;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left-div {
+    background: url(../Images/Religious3.jpg) no-repeat center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 95vh;
+    /*border: 1px solid black;*/
+}
+
+.left-div p, .left-div a{
+    font-family: 'Cairo', sans-serif;
+    color: blanchedalmond;
+    letter-spacing: 1px;
+    float: none;
+    top: 3vh;
+    left: 0.2vw;
+    width: 100%;
+    font-size: 6.5vh;
+    text-align: left;
+    word-wrap: break-word;
+    text-decoration: none;
+    position: relative;
+}
+
+#subtitle-left {
+    margin-top: 2vh;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    left: 3vw;
+    position: relative;
+}
+
+
+.right-div {
+    background-color: #3da5d9;
+    width: 50%;
+    height: 95vh;
+    margin-left: 50%;
+}
+
+.navbar-top {
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-bot {
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center-text {
+    overflow: hidden;
+    width: 100%;
+    height: 82vh;
+    padding: 10vh;
+    text-align: center;
+    line-height: 16vh;
+    font-size: 8vh;
+    color: blanchedalmond;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+.navbar-top a, .navbar-bot a {
+    color: blanchedalmond;
+    font-size: 2vh;
+    text-align: center;
+    padding: 1vh 5vh 1vh 5vh;
+    margin-left: 3vh;
+}
+
+.navbar-top a:hover, .navbar-bot a:hover {
+    color: #2364aa;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+
