@@ -2,11 +2,11 @@
 The Orders&Produce webpage is a side project designed to serve as an online platform for a fictional non-profit organization. The organization specializes in selling religious items to support its charitable mission of aiding the poor and marginalized within the community. The website provides essential information about the organization, its mission, product offerings, and avenues for customer engagement.
 
 ## Table of Contents
-[Project Description] (#project-description)
-[Technologies Used] (#technologies-used)
-[Features] (#features)
-[Installation] (#installation)
-[Usage] (#usage)
+[Project Description](#project-description)
+[Technologies Used](#technologies-used)
+[Features](#features)
+[Installation](#installation)
+[Usage](#usage)
 
 ## Project Description
 The Orders&Produce website is crafted to reflect the values of a non-profit organization dedicated to the sale of religious items, such as liturgical vestments, books, and sacramental materials. The proceeds from these sales are directed towards charitable activities, including sheltering the homeless and supporting community outreach programs. The site is designed with a user-friendly interface to facilitate easy navigation and engagement.
@@ -44,7 +44,7 @@ To set up the Orders&Produce webpage locally:
 
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/OrdersProduce.git
+git clone https://github.com/yhuhz/Orders-Produce.git
 ```
 
 Navigate to the project directory:
