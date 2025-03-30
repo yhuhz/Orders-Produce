@@ -1,389 +1,662 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Main Page">
-      <meta name="keywords" content="HTML, CSS, JavaScript">
-      <meta name="author" content="Julius Grajo">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Main Page" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Julius Grajo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Orders&Produce</title>
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+    <title>Orders&Produce</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-        <!--<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script> 
-        <script src="./Sweetalert/cdnjs/sweetalert2.min.js"></script>
-        <link rel="stylesheet" href="./Sweetalert/cdnjs/sweetalert.min.css"> -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <!-- Bootstrap core CSS -->
-        <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">   
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/Main_CSS.css" />
+    <link rel="stylesheet" href="./CSS/Products.css" />
+    <link rel="stylesheet" href="./CSS/lightbox.css" />
+    <link rel="stylesheet" href="./CSS/About.css" />
+    <link rel="stylesheet" href="./CSS/Contact.css" />
+    <link rel="stylesheet" href="./CSS/Login.css" />
 
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="./Images/LogoBack.png" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="stylesheet" href="./CSS/Main_CSS.css">
-        <link rel="stylesheet" href="./CSS/Products.css">
-        <link rel="stylesheet" href="./CSS/lightbox.css">
-        <link rel="stylesheet" href="./CSS/About.css">
-        <link rel="stylesheet" href="./CSS/Contact.css">
-        <link rel="stylesheet" href="./CSS/Login.css">
+    <script src="./JS/Main Page.js"></script>
+    <script src="./JS/Products.js"></script>
+    <script src="./JS/lightbox.js"></script>
 
-        <link rel="icon" href="./Images/LogoBack.png">
+    <style>
+      @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css');
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+    </style>
+  </head>
 
-        <script src="./JS/Main Page.js"></script>
-        <script src="./JS/Products.js"></script>
-        <script src="./JS/lightbox.js"></script>
-
-
-        <style>
-        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
-        </style>
-    </head>
-    
-    <body>
-        <div class="top-bar">
-          <div class="menu">
-            <i id="menuIcon" class="bi bi-list"></i>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="#Home">Home</a>
-                <a href="#AboutPlaceholder">About</a>
-                <a href="#ProductPlaceholder">Products</a>
-                <a href="#ContactPlaceholder">Contact</a>
-                <a href="#LoginPlaceholder">Log In</a>
-              </div>
-          </div>
-          <div class="left-menu">
-          <a href="#Home"><img class="logo" src="./Images/Logo.png"><h3 class="logo-name">Orders<span style="font-size: 2vh;">&</span>Produce</h3></a>
+  <body>
+    <div class="top-bar">
+      <div class="menu">
+        <i id="menuIcon" class="bi bi-list"></i>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#Home">Home</a>
+          <a href="#AboutPlaceholder">About</a>
+          <a href="#ProductPlaceholder">Products</a>
+          <a href="#ContactPlaceholder">Contact</a>
+          <a href="#LoginPlaceholder">Log In</a>
         </div>
-        </div>
-      
-      <div id="Home"></div> 
-      <div class="Home">
-          <div class="left-div">
-              <a id="title-home" href="Main Page.html"><p>Orders<span style="font-size: 2vh;">&</span>Produce</p></a>
-              <p id="subtitle-left">Mater et Cash Register</p>
-          </div>
-
-          <div class="right-div">
-                <div class="navbar-top">
-                  <a href="#AboutPlaceholder" style="float: left;"><i class="bi bi-people"></i> About</a>
-                  <a href="#ProductPlaceholder" style="float: right;"><i class="bi bi-shop"></i> Products</a>
-                </div>
-
-                <div class="center-text">
-                    Preach the Gospel at all times;<br>
-                    If necessary, use memes.
-                </div>
-
-                <div class="navbar-bot">
-                  <a href="#ContactPlaceholder" style="float: left;"><i class="bi bi-chat-right-dots"></i> Contact</a>
-                  <a href="#LoginPlaceholder" style="float: right;"><i class="bi bi-door-open"></i> Log In</a>
-                </div>
-                <div id="AboutPlaceholder"></div>
-          </div>
       </div>
-      
-      <div class="About" id="About">
+      <div class="left-menu">
+        <a href="#Home"
+          ><img class="logo" src="./Images/Logo.png" />
+          <h3 class="logo-name">
+            Orders<span style="font-size: 2vh">&</span>Produce
+          </h3></a
+        >
+      </div>
+    </div>
 
-        
-      
-        <div class="AboutIntro">
-          <h1>Our Fundamental Mission</h1>
-          <p><span style="font-style:italic;">"Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible."</span><br><span style="font-size:smaller">St. Francis of Assisi</span></p>
-        </div>
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-            <li data-target="#myCarousel" data-slide-to="5"></li>
-            <li data-target="#myCarousel" data-slide-to="6"></li>
-          </ol>
-        
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="./Images/About/About1.jpg" alt="Feed the Hungry">
-              <div class="carousel-caption">
-                <h3>Feed the hungry</h3>
-                <p>"The generous will be blessed, for they share their food with the poor." <span style="font-style: italic;">(Proverbs 22:9)</span></p>
-              </div>
-            </div>
-        
-            <div class="item">
-              <img src="./Images/About/About2.jpg" alt="Give drink to the thirsty">
-              <div class="carousel-caption">
-                <h3>Give drink to the thirsty</h3>
-                <p>"I was thirsty and you gave me drink." <span style="font-style: italic;">(Matthew 25:35)</span></p>
-              </div>
-            </div>
-        
-            <div class="item">
-              <img src="./Images/About/About3.jpg" alt="Shelter the homeless">
-              <div class="carousel-caption">
-                <h3>Shelter the homeless</h3>
-                <p>"A stranger and you welcomed me." <span style="font-style: italic;">(Matthew 25:35)</span></p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="./Images/About/About4.jpg" alt="Visit the sick">
-              <div class="carousel-caption">
-                <h3>Visit the sick</h3>
-                <p>"Ill and you cared for me." <span style="font-style: italic;">(Matthew 25:36)</span></p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="./Images/About/About5.jpg" alt="Visit the imprisoned">
-              <div class="carousel-caption">
-                <h3>Visit the imprisoned</h3>
-                <p>"In prison and you visited me." <span style="font-style: italic;">(Matthew 25:36)</span></p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="./Images/About/About6.jpg" alt="Bury the dead">
-              <div class="carousel-caption">
-                <h3>Bury the dead</h3>
-                <p>"If I saw one of my people who had died and been thrown behind the wall of Nineveh, I used to bury him." <span style="font-style: italic;">(Tobit 1:17)</span></p>
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="./Images/About/About7.jpg" alt="Clothe the naked">
-              <div class="carousel-caption">
-                <h3>Clothe the naked</h3>
-                <p>"Naked and you clothed me." <span style="font-style: italic;">(Matthew 25:35)</span></p>
-              </div>
-            </div>
-          </div>
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-        <div class="AboutText">
-          <h3>Who are we?</h3>
-          <p>We are a non-profit company that sells various religious items for Liturgies, Sacraments, and famous Catholic devotions. We cater to both Western and Eastern Catholics. All the proceeds of our company goes directly to charity and future investments for the growth of this charity.</p>
-          
-        </div>
-
+    <div id="Home"></div>
+    <div class="Home">
+      <div class="left-div">
+        <a id="title-home" href="Main Page.html"
+          ><p>Orders<span style="font-size: 2vh">&</span>Produce</p></a
+        >
+        <p id="subtitle-left">Mater et Cash Register</p>
       </div>
 
+      <div class="right-div">
+        <div class="navbar-top">
+          <a href="#AboutPlaceholder" style="float: left"
+            ><i class="bi bi-people"></i> About</a
+          >
+          <a href="#ProductPlaceholder" style="float: right"
+            ><i class="bi bi-shop"></i> Products</a
+          >
+        </div>
+
+        <div class="center-text">
+          Preach the Gospel at all times;<br />
+          If necessary, use memes.
+        </div>
+
+        <div class="navbar-bot">
+          <a href="#ContactPlaceholder" style="float: left"
+            ><i class="bi bi-chat-right-dots"></i> Contact</a
+          >
+          <a href="#LoginPlaceholder" style="float: right"
+            ><i class="bi bi-door-open"></i> Log In</a
+          >
+        </div>
+        <div id="AboutPlaceholder"></div>
+      </div>
+    </div>
+
+    <div class="About" id="About">
+      <div class="AboutIntro">
+        <h1>Our Fundamental Mission</h1>
+        <p>
+          <span style="font-style: italic"
+            >"Start by doing what's necessary; then do what's possible; and
+            suddenly you are doing the impossible."</span
+          ><br /><span style="font-size: smaller">St. Francis of Assisi</span>
+        </p>
+      </div>
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./Images/About/About1.jpg" alt="Feed the Hungry" />
+            <div class="carousel-caption">
+              <h3>Feed the hungry</h3>
+              <p>
+                "The generous will be blessed, for they share their food with
+                the poor."
+                <span style="font-style: italic">(Proverbs 22:9)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="./Images/About/About2.jpg"
+              alt="Give drink to the thirsty"
+            />
+            <div class="carousel-caption">
+              <h3>Give drink to the thirsty</h3>
+              <p>
+                "I was thirsty and you gave me drink."
+                <span style="font-style: italic">(Matthew 25:35)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/About/About3.jpg" alt="Shelter the homeless" />
+            <div class="carousel-caption">
+              <h3>Shelter the homeless</h3>
+              <p>
+                "A stranger and you welcomed me."
+                <span style="font-style: italic">(Matthew 25:35)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/About/About4.jpg" alt="Visit the sick" />
+            <div class="carousel-caption">
+              <h3>Visit the sick</h3>
+              <p>
+                "Ill and you cared for me."
+                <span style="font-style: italic">(Matthew 25:36)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/About/About5.jpg" alt="Visit the imprisoned" />
+            <div class="carousel-caption">
+              <h3>Visit the imprisoned</h3>
+              <p>
+                "In prison and you visited me."
+                <span style="font-style: italic">(Matthew 25:36)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/About/About6.jpg" alt="Bury the dead" />
+            <div class="carousel-caption">
+              <h3>Bury the dead</h3>
+              <p>
+                "If I saw one of my people who had died and been thrown behind
+                the wall of Nineveh, I used to bury him."
+                <span style="font-style: italic">(Tobit 1:17)</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/About/About7.jpg" alt="Clothe the naked" />
+            <div class="carousel-caption">
+              <h3>Clothe the naked</h3>
+              <p>
+                "Naked and you clothed me."
+                <span style="font-style: italic">(Matthew 25:35)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="AboutText">
+        <h3>Who are we?</h3>
+        <p>
+          We are a non-profit company that sells various religious items for
+          Liturgies, Sacraments, and famous Catholic devotions. We cater to both
+          Western and Eastern Catholics. All the proceeds of our company goes
+          directly to charity and future investments for the growth of this
+          charity.
+        </p>
+      </div>
+    </div>
 
     <div class="Product" id="Product">
       <div id="ProductPlaceholder"></div>
       <div class="ProductIntro">
         <h1>Our Products</h1>
-        <p><span style="font-style:italic;">"We must sow the seed, not hoard it."</span><br><span style="font-size:smaller">St. Dominic de Guzman</span></p>
+        <p>
+          <span style="font-style: italic"
+            >"We must sow the seed, not hoard it."</span
+          ><br /><span style="font-size: smaller">St. Dominic de Guzman</span>
+        </p>
       </div>
       <!-- Tab links -->
       <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Vestments')" id="defaultOpen">Vestments</button>
-        <button class="tablinks" onclick="openCity(event, 'Liturgy')">Liturgy</button>
-        <button class="tablinks" onclick="openCity(event, 'Books')">Books</button>
-        <button class="tablinks" onclick="openCity(event, 'Habits')">Habits</button>
-        <button class="tablinks" onclick="openCity(event, 'Devotions')">Devotions</button>
+        <button
+          class="tablinks"
+          onclick="openCity(event, 'Vestments')"
+          id="defaultOpen"
+        >
+          Vestments
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Liturgy')">
+          Liturgy
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Books')">
+          Books
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Habits')">
+          Habits
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Devotions')">
+          Devotions
+        </button>
       </div>
 
       <!-- Tab content -->
 
       <div id="Vestments" class="tabcontent">
         <h3>Vestments</h3>
-        <p class="Vpar_Left">Vestments are liturgical garments and articles associated primarily with the Christian religion, especially among Catholics (Western Church and Eastern Churches).<br>
-        The liturgical vestments of the Latin Rite are: the amice, alb, cincture, maniple, stole, tunicle, dalmatic, chasuble, surplice, cope, sandals, stockings (or buskins), gloves, mitre, pallium, succinctorium, and fanon.<br>There are also liturgical vestments in the Oriental Rites. They are fewer than the sacerdotal vestments of western Europe and vary from these also as regards form, nature, and use. Nevertheless the sacerdotal vestments of the East and West agree in essentials.</p>
+        <p class="Vpar_Left">
+          Vestments are liturgical garments and articles associated primarily
+          with the Christian religion, especially among Catholics (Western
+          Church and Eastern Churches).<br />
+          The liturgical vestments of the Latin Rite are: the amice, alb,
+          cincture, maniple, stole, tunicle, dalmatic, chasuble, surplice, cope,
+          sandals, stockings (or buskins), gloves, mitre, pallium,
+          succinctorium, and fanon.<br />There are also liturgical vestments in
+          the Oriental Rites. They are fewer than the sacerdotal vestments of
+          western Europe and vary from these also as regards form, nature, and
+          use. Nevertheless the sacerdotal vestments of the East and West agree
+          in essentials.
+        </p>
         <!--<p class="Vpar_Right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec lectus nec ante pulvinar mollis eu sit amet justo. Duis venenatis sem est, non tempor elit molestie in. Vestibulum tristique velit eget neque suscipit, ut sagittis nunc luctus. Cras imperdiet pulvinar sem porttitor tristique. Duis dignissim nisl ac nibh tempus, eu commodo felis feugiat. Vivamus ullamcorper, felis cursus gravida tristique, nulla nulla vestibulum odio, at semper felis urna ornare libero. Integer eros enim, pharetra eget pellentesque nec, porta quis urna.</p>-->
-          <div class = "VestmentsGallery">
-
-            <div class="Vtile">
-            <a href="./Images/Vestments/Vestments1.jpg" data-lightbox="gallery1" data-title="Novus Ordo Vestments"><img src="./Images/Vestments/Vestments1.jpg"><figcaption>Novus Ordo Vestments</figcaption></a>
-            </div>
-
-            <div class="Vtile">
-            <a href="./Images/Vestments/Vestments2.jpg" data-lightbox="gallery1" data-title="Tridentine Vestments"><img src="./Images/Vestments/Vestments2.jpg"><figcaption>Tridentine Vestments</figcaption></a>
-            </div>
-
-            <div class="Vtile">
-            <a href="./Images/Vestments/Vestments3.jpg" data-lightbox="gallery1" data-title="Old Believers Greek Vestments"><img src="./Images/Vestments/Vestments3.jpg"><figcaption>Old Believers Vestments</figcaption></a>
-            </div>
-
-            <div class="Vtile">
-            <a href="./Images/Vestments/Vestments4.jpg" data-lightbox="gallery1" data-title="Greek Catholic Vestments"><img src="./Images/Vestments/Vestments4.jpg"><figcaption>Greek Catholic Vestments</figcaption></a>
-            </div>
+        <div class="VestmentsGallery">
+          <div class="Vtile">
+            <a
+              href="./Images/Vestments/Vestments1.jpg"
+              data-lightbox="gallery1"
+              data-title="Novus Ordo Vestments"
+              ><img src="./Images/Vestments/Vestments1.jpg" />
+              <figcaption>Novus Ordo Vestments</figcaption></a
+            >
           </div>
+
+          <div class="Vtile">
+            <a
+              href="./Images/Vestments/Vestments2.jpg"
+              data-lightbox="gallery1"
+              data-title="Tridentine Vestments"
+              ><img src="./Images/Vestments/Vestments2.jpg" />
+              <figcaption>Tridentine Vestments</figcaption></a
+            >
+          </div>
+
+          <div class="Vtile">
+            <a
+              href="./Images/Vestments/Vestments3.jpg"
+              data-lightbox="gallery1"
+              data-title="Old Believers Greek Vestments"
+              ><img src="./Images/Vestments/Vestments3.jpg" />
+              <figcaption>Old Believers Vestments</figcaption></a
+            >
+          </div>
+
+          <div class="Vtile">
+            <a
+              href="./Images/Vestments/Vestments4.jpg"
+              data-lightbox="gallery1"
+              data-title="Greek Catholic Vestments"
+              ><img src="./Images/Vestments/Vestments4.jpg" />
+              <figcaption>Greek Catholic Vestments</figcaption></a
+            >
+          </div>
+        </div>
       </div>
 
       <div id="Liturgy" class="tabcontent">
         <h3>Liturgy</h3>
-        <p class="Lpar_Left">Liturgy is the customary public worship performed by a religious group. As a religious phenomenon, liturgy represents a communal response to and participation in the sacred through activities reflecting praise, thanksgiving, remembrance, supplication or repentance. It forms a basis for establishing a relationship with a divine agency, as well as with other participants in the liturgy.<br>
-        The term "liturgy" in Greek literally means to "work for the people", but a better translation is "public service" or "public work", as made clear from the origin of the term as described above.</p>
-          <div class = "LiturgyGallery">
-
-            <div class="Ltile">
-            <a href="./Images/Liturgy/Product1.jpg" data-lightbox="gallery2" data-title="Antimension and Corporal"><img src="./Images/Liturgy/Product1.jpg"><figcaption>Antimension and Corporal</figcaption></a>
-            </div>
-
-            <div class="Ltile">
-              <a href="./Images/Liturgy/Product2.jpg" data-lightbox="gallery2" data-title="Crucifix and Candelabrum"><img src="./Images/Liturgy/Product2.jpg"><figcaption>Crucifix and Candelabrum</figcaption></a>
-            </div>
-
-            <div class="Ltile">
-              <a href="./Images/Liturgy/Product3.jpg" data-lightbox="gallery2" data-title="Tabernacle"><img src="./Images/Liturgy/Product3.jpg"><figcaption>Tabernacle</figcaption></a>
-            </div>
-
-            <div class="Ltile">
-              <a href="./Images/Liturgy/Product4.jpg" data-lightbox="gallery2" data-title="Altar Cloth"><img src="./Images/Liturgy/Product4.jpg"><figcaption>Altar Cloth</figcaption></a>
-            </div>
-
-            <div class="Ltile">
-              <a href="./Images/Liturgy/Product5.jpg" data-lightbox="gallery2" data-title="Mass Essentials"><img src="./Images/Liturgy/Product5.jpg"><figcaption>Mass Essentials</figcaption></a>
-            </div>
-
-            <div class="Ltile">
-              <a href="./Images/Liturgy/Product6.jpg" data-lightbox="gallery2" data-title="Pipe Organ"><img src="./Images/Liturgy/Product6.jpg"><figcaption>Pipe Organ</figcaption></a>
-            </div>
+        <p class="Lpar_Left">
+          Liturgy is the customary public worship performed by a religious
+          group. As a religious phenomenon, liturgy represents a communal
+          response to and participation in the sacred through activities
+          reflecting praise, thanksgiving, remembrance, supplication or
+          repentance. It forms a basis for establishing a relationship with a
+          divine agency, as well as with other participants in the liturgy.<br />
+          The term "liturgy" in Greek literally means to "work for the people",
+          but a better translation is "public service" or "public work", as made
+          clear from the origin of the term as described above.
+        </p>
+        <div class="LiturgyGallery">
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product1.jpg"
+              data-lightbox="gallery2"
+              data-title="Antimension and Corporal"
+              ><img src="./Images/Liturgy/Product1.jpg" />
+              <figcaption>Antimension and Corporal</figcaption></a
+            >
           </div>
+
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product2.jpg"
+              data-lightbox="gallery2"
+              data-title="Crucifix and Candelabrum"
+              ><img src="./Images/Liturgy/Product2.jpg" />
+              <figcaption>Crucifix and Candelabrum</figcaption></a
+            >
+          </div>
+
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product3.jpg"
+              data-lightbox="gallery2"
+              data-title="Tabernacle"
+              ><img src="./Images/Liturgy/Product3.jpg" />
+              <figcaption>Tabernacle</figcaption></a
+            >
+          </div>
+
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product4.jpg"
+              data-lightbox="gallery2"
+              data-title="Altar Cloth"
+              ><img src="./Images/Liturgy/Product4.jpg" />
+              <figcaption>Altar Cloth</figcaption></a
+            >
+          </div>
+
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product5.jpg"
+              data-lightbox="gallery2"
+              data-title="Mass Essentials"
+              ><img src="./Images/Liturgy/Product5.jpg" />
+              <figcaption>Mass Essentials</figcaption></a
+            >
+          </div>
+
+          <div class="Ltile">
+            <a
+              href="./Images/Liturgy/Product6.jpg"
+              data-lightbox="gallery2"
+              data-title="Pipe Organ"
+              ><img src="./Images/Liturgy/Product6.jpg" />
+              <figcaption>Pipe Organ</figcaption></a
+            >
+          </div>
+        </div>
       </div>
 
       <div id="Books" class="tabcontent">
         <h3>Books</h3>
-        <p class="Bpar">A liturgical book, or service book, is a book published by the authority of a church body that contains the text and directions for the liturgy of its official religious services.</p>
-        <div class = "BooksGallery">
-
+        <p class="Bpar">
+          A liturgical book, or service book, is a book published by the
+          authority of a church body that contains the text and directions for
+          the liturgy of its official religious services.
+        </p>
+        <div class="BooksGallery">
           <div class="Btile">
-            <a href="./Images/Books/RomanMissal.jpg" data-lightbox="gallery3" data-title="Roman Missal"><img src="./Images/Books/RomanMissal.jpg"><figcaption>Roman Missal</figcaption></a>
+            <a
+              href="./Images/Books/RomanMissal.jpg"
+              data-lightbox="gallery3"
+              data-title="Roman Missal"
+              ><img src="./Images/Books/RomanMissal.jpg" />
+              <figcaption>Roman Missal</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-          <a href="./Images/Books/Bible.jpg" data-lightbox="gallery3" data-title="Bible"><img src="./Images/Books/Bible.jpg"><figcaption>Bible</figcaption></a>
+            <a
+              href="./Images/Books/Bible.jpg"
+              data-lightbox="gallery3"
+              data-title="Bible"
+              ><img src="./Images/Books/Bible.jpg" />
+              <figcaption>Bible</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DLArmenian.jpg" data-lightbox="gallery3" data-title="Armenian Divine Liturgy"><img src="./Images/Books/DLArmenian.jpg"><figcaption>Armenian Divine Liturgy</figcaption></a>
+            <a
+              href="./Images/Books/DLArmenian.jpg"
+              data-lightbox="gallery3"
+              data-title="Armenian Divine Liturgy"
+              ><img src="./Images/Books/DLArmenian.jpg" />
+              <figcaption>Armenian Divine Liturgy</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DLBasil.jpg" data-lightbox="gallery3" data-title="Divine Liturgy of St. Basil the Great"><img src="./Images/Books/DLBasil.jpg"><figcaption>Divine Liturgy of St. Basil the Great</figcaption></a>
+            <a
+              href="./Images/Books/DLBasil.jpg"
+              data-lightbox="gallery3"
+              data-title="Divine Liturgy of St. Basil the Great"
+              ><img src="./Images/Books/DLBasil.jpg" />
+              <figcaption>Divine Liturgy of St. Basil the Great</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DLChrysostom.jpg" data-lightbox="gallery3" data-title="Divine Liturgy of St. John Chrysostom"><img src="./Images/Books/DLChrysostom.jpg"><figcaption>Divine Liturgy of St. John Chrysostom</figcaption></a>
+            <a
+              href="./Images/Books/DLChrysostom.jpg"
+              data-lightbox="gallery3"
+              data-title="Divine Liturgy of St. John Chrysostom"
+              ><img src="./Images/Books/DLChrysostom.jpg" />
+              <figcaption>Divine Liturgy of St. John Chrysostom</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DLJames.jpg" data-lightbox="gallery3" data-title="Divine Liturgy of St. James"><img src="./Images/Books/DLJames.jpg"><figcaption>Divine Liturgy of St. James</figcaption></a>
+            <a
+              href="./Images/Books/DLJames.jpg"
+              data-lightbox="gallery3"
+              data-title="Divine Liturgy of St. James"
+              ><img src="./Images/Books/DLJames.jpg" />
+              <figcaption>Divine Liturgy of St. James</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DLMark.jpg" data-lightbox="gallery3" data-title="Divine Liturgy of St. Mark"><img src="./Images/Books/DLMark.jpg"><figcaption>Divine Liturgy of St. Mark</figcaption></a>
+            <a
+              href="./Images/Books/DLMark.jpg"
+              data-lightbox="gallery3"
+              data-title="Divine Liturgy of St. Mark"
+              ><img src="./Images/Books/DLMark.jpg" />
+              <figcaption>Divine Liturgy of St. Mark</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/DW.jpg" data-lightbox="gallery3" data-title="Divine Worship: The Missal"><img src="./Images/Books/DW.jpg"><figcaption>Divine Worship: The Missal</figcaption></a>
+            <a
+              href="./Images/Books/DW.jpg"
+              data-lightbox="gallery3"
+              data-title="Divine Worship: The Missal"
+              ><img src="./Images/Books/DW.jpg" />
+              <figcaption>Divine Worship: The Missal</figcaption></a
+            >
           </div>
 
           <div class="Btile">
-            <a href="./Images/Books/LOTH.jpg" data-lightbox="gallery3" data-title="Liturgy of the Hours"><img src="./Images/Books/LOTH.jpg"><figcaption>Liturgy of the Hours</figcaption></a>
+            <a
+              href="./Images/Books/LOTH.jpg"
+              data-lightbox="gallery3"
+              data-title="Liturgy of the Hours"
+              ><img src="./Images/Books/LOTH.jpg" />
+              <figcaption>Liturgy of the Hours</figcaption></a
+            >
           </div>
         </div>
-
       </div>
 
       <div id="Habits" class="tabcontent">
         <h3>Habits</h3>
-        <p class="Hpar">A religious habit is a distinctive set of religious clothing worn by members of a religious order. Traditionally some plain garb recognizable as a religious habit has also been worn by those leading the religious eremitic and anchoritic life, although in their case without conformity to a particular uniform style.</p>
-        <div class = "HabitsGallery">
-
+        <p class="Hpar">
+          A religious habit is a distinctive set of religious clothing worn by
+          members of a religious order. Traditionally some plain garb
+          recognizable as a religious habit has also been worn by those leading
+          the religious eremitic and anchoritic life, although in their case
+          without conformity to a particular uniform style.
+        </p>
+        <div class="HabitsGallery">
           <div class="Htile">
-            <a href="./Images/Habits/Religious1.jpg" data-lightbox="gallery4" data-title="Dominican"><img src="./Images/Habits/Religious1.jpg"><figcaption>Dominican</figcaption></a>
+            <a
+              href="./Images/Habits/Religious1.jpg"
+              data-lightbox="gallery4"
+              data-title="Dominican"
+              ><img src="./Images/Habits/Religious1.jpg" />
+              <figcaption>Dominican</figcaption></a
+            >
           </div>
 
           <div class="Htile">
-            <a href="./Images/Habits/Religious2.jpg" data-lightbox="gallery4" data-title="Franciscan"><img src="./Images/Habits/Religious2.jpg"><figcaption>Franciscan</figcaption></a>
+            <a
+              href="./Images/Habits/Religious2.jpg"
+              data-lightbox="gallery4"
+              data-title="Franciscan"
+              ><img src="./Images/Habits/Religious2.jpg" />
+              <figcaption>Franciscan</figcaption></a
+            >
           </div>
 
           <div class="Htile">
-            <a href="./Images/Habits/Religious3.jpg" data-lightbox="gallery4" data-title="Augustinian"><img src="./Images/Habits/Religious3.jpg"><figcaption>Augustinian</figcaption></a>
+            <a
+              href="./Images/Habits/Religious3.jpg"
+              data-lightbox="gallery4"
+              data-title="Augustinian"
+              ><img src="./Images/Habits/Religious3.jpg" />
+              <figcaption>Augustinian</figcaption></a
+            >
           </div>
 
           <div class="Htile">
-            <a href="./Images/Habits/Religious4.jpg" data-lightbox="gallery4" data-title="Carmelite"><img src="./Images/Habits/Religious4.jpg"><figcaption>Carmelite</figcaption></a>
+            <a
+              href="./Images/Habits/Religious4.jpg"
+              data-lightbox="gallery4"
+              data-title="Carmelite"
+              ><img src="./Images/Habits/Religious4.jpg" />
+              <figcaption>Carmelite</figcaption></a
+            >
           </div>
 
           <div class="Htile">
-            <a href="./Images/Habits/Religious5.jpg" data-lightbox="gallery4" data-title="Jesuit"><img src="./Images/Habits/Religious5.jpg"><figcaption>Jesuit</figcaption></a>
+            <a
+              href="./Images/Habits/Religious5.jpg"
+              data-lightbox="gallery4"
+              data-title="Jesuit"
+              ><img src="./Images/Habits/Religious5.jpg" />
+              <figcaption>Jesuit</figcaption></a
+            >
           </div>
-          
         </div>
       </div>
 
       <div id="Devotions" class="tabcontent">
         <h3>Devotions</h3>
-        <p class="Dpar">Catholic devotions are particular customs, rituals, and practices of worship of God or honour of the saints which are in addition to the liturgy of the Catholic Church. </p>
-        <div class = "DevotionsGallery">
-
+        <p class="Dpar">
+          Catholic devotions are particular customs, rituals, and practices of
+          worship of God or honour of the saints which are in addition to the
+          liturgy of the Catholic Church.
+        </p>
+        <div class="DevotionsGallery">
           <div class="Dtile">
-            <a href="./Images/Devotions/Product1.jpg" data-lightbox="gallery5" data-title="Rosaries"><img src="./Images/Devotions/Product1.jpg"><figcaption>Rosaries</figcaption></a>
-          </div>
-          
-          <div class="Dtile">
-            <a href="./Images/Devotions/Product2.jpg" data-lightbox="gallery5" data-title="Prayer Ropes"><img src="./Images/Devotions/Product2.jpg"><figcaption>Prayer Ropes</figcaption></a>
-          </div>
-
-          <div class="Dtile">
-            <a href="./Images/Devotions/Product3.jpg" data-lightbox="gallery5" data-title="Statues and Images"><img src="./Images/Devotions/Product3.jpg"><figcaption>Statues and Images</figcaption></a>
-          </div>
-
-          <div class="Dtile">
-            <a href="./Images/Devotions/Product4.jpg" data-lightbox="gallery5" data-title="Novenas"><img src="./Images/Devotions/Product4.jpg"><figcaption>Novenas</figcaption></a>
+            <a
+              href="./Images/Devotions/Product1.jpg"
+              data-lightbox="gallery5"
+              data-title="Rosaries"
+              ><img src="./Images/Devotions/Product1.jpg" />
+              <figcaption>Rosaries</figcaption></a
+            >
           </div>
 
           <div class="Dtile">
-            <a href="./Images/Devotions/Product5.jpg" data-lightbox="gallery5" data-title="Stations of the Cross"><img src="./Images/Devotions/Product5.jpg"><figcaption>Stations of the Cross</figcaption></a>
+            <a
+              href="./Images/Devotions/Product2.jpg"
+              data-lightbox="gallery5"
+              data-title="Prayer Ropes"
+              ><img src="./Images/Devotions/Product2.jpg" />
+              <figcaption>Prayer Ropes</figcaption></a
+            >
           </div>
 
           <div class="Dtile">
-            <a href="./Images/Devotions/Product6.jpg" data-lightbox="gallery5" data-title="Medals and Pins"><img src="./Images/Devotions/Product6.jpg"><figcaption>Medals and Pins</figcaption></a>
+            <a
+              href="./Images/Devotions/Product3.jpg"
+              data-lightbox="gallery5"
+              data-title="Statues and Images"
+              ><img src="./Images/Devotions/Product3.jpg" />
+              <figcaption>Statues and Images</figcaption></a
+            >
           </div>
 
           <div class="Dtile">
-            <a href="./Images/Devotions/Product7.jpg" data-lightbox="gallery5" data-title="Prayer Cards"><img src="./Images/Devotions/Product7.jpg"><figcaption>Prayer Cards</figcaption></a>
+            <a
+              href="./Images/Devotions/Product4.jpg"
+              data-lightbox="gallery5"
+              data-title="Novenas"
+              ><img src="./Images/Devotions/Product4.jpg" />
+              <figcaption>Novenas</figcaption></a
+            >
           </div>
-            <div class="Dtile">
-              <a href="./Images/Devotions/Product8.jpg" data-lightbox="gallery5" data-title="Indulgences"><img src="./Images/Devotions/Product8.jpg"><figcaption>Indulgences</figcaption></a>
+
+          <div class="Dtile">
+            <a
+              href="./Images/Devotions/Product5.jpg"
+              data-lightbox="gallery5"
+              data-title="Stations of the Cross"
+              ><img src="./Images/Devotions/Product5.jpg" />
+              <figcaption>Stations of the Cross</figcaption></a
+            >
+          </div>
+
+          <div class="Dtile">
+            <a
+              href="./Images/Devotions/Product6.jpg"
+              data-lightbox="gallery5"
+              data-title="Medals and Pins"
+              ><img src="./Images/Devotions/Product6.jpg" />
+              <figcaption>Medals and Pins</figcaption></a
+            >
+          </div>
+
+          <div class="Dtile">
+            <a
+              href="./Images/Devotions/Product7.jpg"
+              data-lightbox="gallery5"
+              data-title="Prayer Cards"
+              ><img src="./Images/Devotions/Product7.jpg" />
+              <figcaption>Prayer Cards</figcaption></a
+            >
+          </div>
+          <div class="Dtile">
+            <a
+              href="./Images/Devotions/Product8.jpg"
+              data-lightbox="gallery5"
+              data-title="Indulgences"
+              ><img src="./Images/Devotions/Product8.jpg" />
+              <figcaption>Indulgences</figcaption></a
+            >
           </div>
         </div>
-
-
       </div>
-    
+
       <div id="Homebtn">
         <a href="#Home"><i class="bi bi-chevron-double-up"></i></a>
       </div>
@@ -392,230 +665,393 @@
     <div class="Contact" id="Contact">
       <div id="ContactPlaceholder"></div>
 
-        
       <div class="ColorFilter">
         <video autoplay muted loop id="myVideo">
-          <source src="./Videos/EC2.mp4" type="video/mp4">
+          <source
+            src="https://github.com/yhuhz/Orders-Produce/blob/main/Videos/EC2.mp4"
+            type="video/mp4"
+          />
         </video>
+
         <div class="filter-color"></div>
       </div>
 
-    <div class="Contact-RightBar"></div>
-        <div class="BoxOne">
-          <div class="Contactform-header">
-            Leave us a message
-          </div>
-          <div class="container">
-                <form id="ContactForm">
-                    <div class="FirstName">
-                      <label for="firstname">First Name</label><br>
-                      <input type="username" class="form-control" name="firstname" id="firstname-contact" aria-describedby="helpId" required>
-                    </div>
-                    <div class="LastName">
-                      <label for="lastname">Last Name</label><br>
-                      <input type="username" class="form-control" name="lastname" id="lastname-contact" aria-describedby="helpId" required>
-                    </div>
-                    <div class="Email">
-                      <label for="email">Email</label><br>
-                      <input type="email" class="form-control" name="email" id="email-contact" aria-describedby="helpId" required>
-                    </div>
-                    <div class="Number">
-                      <label for="number">Phone Number</label><br>
-                      <div class="NumPrefix">
-                      <span class="number-prefix">+63</span>
-                      <input type="number" class="form-control" name="number" id="number" aria-describedby="helpId" required>
-                    </div>
-                    </div>
-                    <div class="Message">
-                      <label for="message">Message</label><br>
-                      <textarea type="username" class="form-control" name="message" id="message" aria-describedby="helpId" required placeholder="What's your concern?"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
-                    <button type="reset" class="btn btn-primary" id="resetBtn" id="resetBtn" onclick="clearContact()">Clear</button>
-                </form>
-          </div>
-        </div>
-
-        <div class="Owner">
-          <h3>Our Founder</h3>
-
-          <div class="Owner-pic-name">
-            <img src="./Images/Contact/IMG_9466 (2).jpg">
-            <h4>Julius Albert<br>Grajo, OP</h4>
-          </div>
-
-          <div class="contactinfo-owner">
-            <i class="bi bi-envelope"></i><span> jgrajo@forbescollege.org</span><br>
-            <i class="bi bi-telephone"></i><span> 555-1255-123</span><br>
-            <i class="bi bi-phone"></i><span> 09123456789</span><br>
-                <div class="socmed-owner">
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-twitter"></i></a>
-                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-instagram"></i></a>
-                </div>
-          </div>
-        </div>
-
-        <div class="Company">
-          <h3>Contact Us</h3>
-            
-            <div class="company-details">
-              <div class="company-pic-name">
-                <img src="./Images/LogoBack.jpg">
-                <h4>Orders<span style="font-size: 1.5vh;">&</span>Produce</h4>
-              </div>
-  
-              <div class="contactinfo-company">
-                <i class="bi bi-geo-alt"></i><span> O&P Bldg, Holy Street, Ligtas Points, Legazpi City</span><br>
-                <i class="bi bi-envelope"></i><span> OrdersProduce@gmail.com</span><br>
-                <i class="bi bi-telephone"></i><span> 777-1256-123</span><br>
-                <i class="bi bi-phone"></i><span> 09432156789</span><br>
-                    <div class="socmed-company">
-                      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-facebook"></i></a>
-                      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-twitter"></i></a>
-                      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="bi bi-instagram"></i></a>
-                    </div>
+      <div class="Contact-RightBar"></div>
+      <div class="BoxOne">
+        <div class="Contactform-header">Leave us a message</div>
+        <div class="container">
+          <form id="ContactForm">
+            <div class="FirstName">
+              <label for="firstname">First Name</label><br />
+              <input
+                type="username"
+                class="form-control"
+                name="firstname"
+                id="firstname-contact"
+                aria-describedby="helpId"
+                required
+              />
+            </div>
+            <div class="LastName">
+              <label for="lastname">Last Name</label><br />
+              <input
+                type="username"
+                class="form-control"
+                name="lastname"
+                id="lastname-contact"
+                aria-describedby="helpId"
+                required
+              />
+            </div>
+            <div class="Email">
+              <label for="email">Email</label><br />
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email-contact"
+                aria-describedby="helpId"
+                required
+              />
+            </div>
+            <div class="Number">
+              <label for="number">Phone Number</label><br />
+              <div class="NumPrefix">
+                <span class="number-prefix">+63</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  name="number"
+                  id="number"
+                  aria-describedby="helpId"
+                  required
+                />
               </div>
             </div>
-        </div>
+            <div class="Message">
+              <label for="message">Message</label><br />
+              <textarea
+                type="username"
+                class="form-control"
+                name="message"
+                id="message"
+                aria-describedby="helpId"
+                required
+                placeholder="What's your concern?"
+              ></textarea>
+            </div>
 
-        <div class="BoxTwo">
-          <h3>Follow us!</h3>
-          <div class="SocMed">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fa fa-facebook"></a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fa fa-twitter"></a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fa fa-google"></a>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fa fa-instagram"></a>
-        </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">
+              Submit
+            </button>
+            <button
+              type="reset"
+              class="btn btn-primary"
+              id="resetBtn"
+              id="resetBtn"
+              onclick="clearContact()"
+            >
+              Clear
+            </button>
+          </form>
         </div>
       </div>
 
-        <div id="LoginPlaceholder"></div>
+      <div class="Owner">
+        <h3>Our Founder</h3>
 
-        <div class="Login">
-
-          <div class="full-container">
-            <div class="container-login" id="Signin">
-              <div class="header">
-                  <h2>Sign In</h2>
-                  <div class="loginIcon">
-                    <img src="./Images/LogoBack.png" id="logIcon">
-                  </div>
-              </div>
-                  <form class="form" id="form">
-                      <div class="form-group">
-                        <label for="username-Login">Username</label>
-                        <input type="text" class="form-control" name="username-Login" id="username" aria-describedby="helpId" required>
-                          <i class="bi bi-check-square-fill"></i>
-                          <i class="bi bi-exclamation-square-fill"></i>
-                      </div>
-                      
-                      <div class="form-group">
-                          <label for="password-Login">Password</label>
-                          <input type="password" class="form-control" name="password-Login" id="password" aria-describedby="helpId" required>
-                            <i class="bi bi-check-square-fill"></i>
-                            <i class="bi bi-exclamation-square-fill"></i>
-                          <small id="passwordSmall" class="form-text text-muted">Error Message</small>
-                        </div>
-                      
-                      <div class="form-group">
-                      <button type="submit" id="SubmitBtn">Submit</button>
-                      <button id="ResetBtn" type="reset" onclick="clearLogin()">Reset</button>
-                      
-                      <hr style="height:2px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
-                      </div>
-                      
-                     <div class="social-media">
-                        <h4>or sign in with</h4>
-                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><div class="socIcons">
-                          <i class="bi bi-google"></i>
-                        </div>
-                      </a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><div class="socIcons">
-                          <i class="bi bi-facebook"></i>
-                        </div></a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><div class="socIcons">
-                          <i class="bi bi-discord"></i>
-                        </div></a>
-                      </div>
-                      <div class="RegText">
-                        <h5>Don't have an account?<br><span>Click <a onclick="signupClick()">here</a></span></h5>
-                      </div>
-
-                  </form>
-                  
-            </div>
-  
-            <div class="Registration" id="Signup">
-              <div class="Regheader">
-                <h2 class="RegisterHead">Register</h2>
-                </div>
-                <form class="RegForm" id="RegForm">
-                  <div class="form-group">
-                    <div class="FirstName-Reg">
-                      <label for="FirstName-Reg">First Name</label>
-                      <input type="text" class="form-control" name="f-name" id="f-name" aria-describedby="helpId" required>
-                    </div>
-              
-                    <div class="LastName-Reg">
-                      <label for="FirstName-Reg">Last Name</label>
-                      <input type="text" class="form-control" name="l-name" id="l-name" aria-describedby="helpId" required>
-                    </div>
-                  </div>
-
-                  <div class="Username">
-                  <div class="form-group">
-                      <label for="Username">Username</label>
-                      <input type="text" class="form-control" name="username" id="username-Reg" aria-describedby="helpId" required>
-                      <i class="bi bi-check-square-fill"></i>
-                      <i class="bi bi-exclamation-square-fill"></i>
-                    </div>
-                  </div>
-
-                  <div class="Email-Reg">
-                    <div class="form-group">
-                    <label for="email-Reg">Email</label>
-                    <input type="email" class="form-control" name="email-Reg" id="email-Reg" aria-describedby="helpId" required>
-                          <i class="bi bi-check-square-fill"></i>
-                          <i class="bi bi-exclamation-square-fill"></i>
-                  </div>
-                  </div>
-                  
-                  <div class="Password-Reg">
-                    <div class="form-group">
-                      <label for="password-Reg">Password</label>
-                      <input type="password" class="form-control" name="password-Reg" id="password-Reg" aria-describedby="helpId" required>
-                        <i class="bi bi-check-square-fill"></i>
-                        <i class="bi bi-exclamation-square-fill"></i>
-                    </div>
-                  </div>
-                  
-                  <div class="form-group">
-                  <button type="submit" id="SubmitBtnReg">Submit</button>
-                  <button id="ResetBtnReg" type="reset" onclick="clearReg();">Reset</button>
-                  
-                  </div>
-  
-                  <div class="BackText">
-                    <h5>Already have an account?<br><span>Click <a onclick="signinClick();">here</a></span></h5>
-                  </div>
-                </form>
-            </div>
-          
-            <div class="ImageRight">
-              <img src="./Images/Login/Background3_blurred.jpg">
-            </div>
-            
-          </div>
-          
+        <div class="Owner-pic-name">
+          <img src="./Images/Contact/IMG_9466 (2).jpg" />
+          <h4>Julius Albert<br />Grajo, OP</h4>
         </div>
 
-      
+        <div class="contactinfo-owner">
+          <i class="bi bi-envelope"></i><span> jgrajo@forbescollege.org</span
+          ><br />
+          <i class="bi bi-telephone"></i><span> 555-1255-123</span><br />
+          <i class="bi bi-phone"></i><span> 09123456789</span><br />
+          <div class="socmed-owner">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
 
-<script type="text/javascript">document.getElementById("defaultOpen").click();</script>
-<script src="./JS/Login JS.js"></script>
-<script src="./JS/Contact.js"></script>
-</body>
+      <div class="Company">
+        <h3>Contact Us</h3>
 
+        <div class="company-details">
+          <div class="company-pic-name">
+            <img src="./Images/LogoBack.jpg" />
+            <h4>Orders<span style="font-size: 1.5vh">&</span>Produce</h4>
+          </div>
+
+          <div class="contactinfo-company">
+            <i class="bi bi-geo-alt"></i
+            ><span> O&P Bldg, Holy Street, Ligtas Points, Legazpi City</span
+            ><br />
+            <i class="bi bi-envelope"></i><span> OrdersProduce@gmail.com</span
+            ><br />
+            <i class="bi bi-telephone"></i><span> 777-1256-123</span><br />
+            <i class="bi bi-phone"></i><span> 09432156789</span><br />
+            <div class="socmed-company">
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="BoxTwo">
+        <h3>Follow us!</h3>
+        <div class="SocMed">
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            class="fa fa-google"
+          ></a>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="LoginPlaceholder"></div>
+
+    <div class="Login">
+      <div class="full-container">
+        <div class="container-login" id="Signin">
+          <div class="header">
+            <h2>Sign In</h2>
+            <div class="loginIcon">
+              <img src="./Images/LogoBack.png" id="logIcon" />
+            </div>
+          </div>
+          <form class="form" id="form">
+            <div class="form-group">
+              <label for="username-Login">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                name="username-Login"
+                id="username"
+                aria-describedby="helpId"
+                required
+              />
+              <i class="bi bi-check-square-fill"></i>
+              <i class="bi bi-exclamation-square-fill"></i>
+            </div>
+
+            <div class="form-group">
+              <label for="password-Login">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="password-Login"
+                id="password"
+                aria-describedby="helpId"
+                required
+              />
+              <i class="bi bi-check-square-fill"></i>
+              <i class="bi bi-exclamation-square-fill"></i>
+              <small id="passwordSmall" class="form-text text-muted"
+                >Error Message</small
+              >
+            </div>
+
+            <div class="form-group">
+              <button type="submit" id="SubmitBtn">Submit</button>
+              <button id="ResetBtn" type="reset" onclick="clearLogin()">
+                Reset
+              </button>
+
+              <hr
+                style="
+                  height: 2px;
+                  border-width: 0;
+                  color: rgb(255, 255, 255);
+                  background-color: rgb(255, 255, 255);
+                "
+              />
+            </div>
+
+            <div class="social-media">
+              <h4>or sign in with</h4>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><div class="socIcons">
+                  <i class="bi bi-google"></i>
+                </div>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><div class="socIcons">
+                  <i class="bi bi-facebook"></i></div
+              ></a>
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                ><div class="socIcons">
+                  <i class="bi bi-discord"></i></div
+              ></a>
+            </div>
+            <div class="RegText">
+              <h5>
+                Don't have an account?<br /><span
+                  >Click <a onclick="signupClick()">here</a></span
+                >
+              </h5>
+            </div>
+          </form>
+        </div>
+
+        <div class="Registration" id="Signup">
+          <div class="Regheader">
+            <h2 class="RegisterHead">Register</h2>
+          </div>
+          <form class="RegForm" id="RegForm">
+            <div class="form-group">
+              <div class="FirstName-Reg">
+                <label for="FirstName-Reg">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="f-name"
+                  id="f-name"
+                  aria-describedby="helpId"
+                  required
+                />
+              </div>
+
+              <div class="LastName-Reg">
+                <label for="FirstName-Reg">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="l-name"
+                  id="l-name"
+                  aria-describedby="helpId"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="Username">
+              <div class="form-group">
+                <label for="Username">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="username"
+                  id="username-Reg"
+                  aria-describedby="helpId"
+                  required
+                />
+                <i class="bi bi-check-square-fill"></i>
+                <i class="bi bi-exclamation-square-fill"></i>
+              </div>
+            </div>
+
+            <div class="Email-Reg">
+              <div class="form-group">
+                <label for="email-Reg">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email-Reg"
+                  id="email-Reg"
+                  aria-describedby="helpId"
+                  required
+                />
+                <i class="bi bi-check-square-fill"></i>
+                <i class="bi bi-exclamation-square-fill"></i>
+              </div>
+            </div>
+
+            <div class="Password-Reg">
+              <div class="form-group">
+                <label for="password-Reg">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password-Reg"
+                  id="password-Reg"
+                  aria-describedby="helpId"
+                  required
+                />
+                <i class="bi bi-check-square-fill"></i>
+                <i class="bi bi-exclamation-square-fill"></i>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" id="SubmitBtnReg">Submit</button>
+              <button id="ResetBtnReg" type="reset" onclick="clearReg();">
+                Reset
+              </button>
+            </div>
+
+            <div class="BackText">
+              <h5>
+                Already have an account?<br /><span
+                  >Click <a onclick="signinClick();">here</a></span
+                >
+              </h5>
+            </div>
+          </form>
+        </div>
+
+        <div class="ImageRight">
+          <img src="./Images/Login/Background3_blurred.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      document.getElementById('defaultOpen').click();
+    </script>
+    <script src="./JS/Login JS.js"></script>
+    <script src="./JS/Contact.js"></script>
+  </body>
 </html>
